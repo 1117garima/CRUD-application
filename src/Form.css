@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #9b13ad; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 16px rgba(217, 67, 244, 0.2); 
+    background-color: #f9f9f9; 
+}
+
+form div {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    color: #3a174d;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+input:focus {
+    border-color: #369ece; 
+    box-shadow: 0 0 5px rgba(47, 198, 245, 0.5); 
+    outline: none; 
+}
+
+
+.address-container {
+    margin-bottom: 20px; 
+}
+
+.address-container label {
+    display: block;
+    font-weight: 500;
+    color: #3a174d; 
+}
+
+.address-container input[type="text"],
+
+.address-container select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+span {
+    color: #a22113;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    background-color: #431765;
+    color: #fff;
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
