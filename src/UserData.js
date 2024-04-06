@@ -90,5 +90,6 @@ export const UserData= [
             country: 'Nepal'
         },
         profilePicture: profile6
-    },
+    }
+   
 ]

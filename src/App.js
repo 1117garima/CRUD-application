@@ -124,8 +124,9 @@ function App() {
       {data.length > pageSize && (
         <div>
           {currentPage > 1 && (
-            <button onClick={handlePrevPage}>Previous Page</button>
+            <button onClick={handlePrevPage} style={{marginRight: '20px'}} >Previous Page</button>
           )}
+
           {data.length > endIndex && (
             <button onClick={handleNextPage}>Next Page</button>
           )}
